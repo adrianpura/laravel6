@@ -21,3 +21,12 @@ Auth::routes();
 
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
+
+
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/contact', 'ContactController@show');
+Route::post('/contact', 'ContactController@store');

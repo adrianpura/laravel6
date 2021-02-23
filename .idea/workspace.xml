@@ -42,10 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="services.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="34" selection-start="997" selection-end="997" vertical-scroll-proportion="0.71428573" vertical-offset="119" max-vertical-offset="714">
+            <state line="26" column="14" selection-start="785" selection-end="785" vertical-scroll-proportion="-12.423077" vertical-offset="119" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentsController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaymentsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="271" selection-end="271" vertical-scroll-proportion="0.25714287" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -329,7 +338,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="User&#10;paymen&#10;services.p&#10;env&#10;we&#10;app.php&#10;mail.php&#10;HomeC&#10;AppSer&#10;Schema" />
+    <property name="SearchEverywhereHistory" value="paym&#10;User&#10;paymen&#10;services.p&#10;env&#10;we&#10;app.php&#10;mail.php&#10;HomeC&#10;AppSer&#10;Schema" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testLaravel" />
   </component>
   <component name="RunManager">
@@ -683,15 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaymentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="e#40#78#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersNotificationsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="1" selection-start="454" selection-end="454" vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="595">
@@ -729,7 +729,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="34" selection-start="997" selection-end="997" vertical-scroll-proportion="0.71428573" vertical-offset="119" max-vertical-offset="714">
+        <state line="26" column="14" selection-start="785" selection-end="785" vertical-scroll-proportion="-12.423077" vertical-offset="119" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaymentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="271" selection-end="271" vertical-scroll-proportion="0.25714287" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>

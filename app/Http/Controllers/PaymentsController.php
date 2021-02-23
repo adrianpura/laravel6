@@ -17,7 +17,7 @@ class PaymentsController extends Controller
 
     public function store()
     {
-        request()->user()->notify(new PaymentReceived());
+        request()->user()->notify(new PaymentReceived(900));
 //        Notification::send(request()->user(), new PaymentReceived());
 //        return view('payments.create');// resources/views/payments/create.blade.php
     }

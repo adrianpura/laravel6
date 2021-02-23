@@ -36,4 +36,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function routeNotificationForNexmo($notification)
+    {
+//        return $this->phone_number;
+        return '09176402213';
+    }
 }

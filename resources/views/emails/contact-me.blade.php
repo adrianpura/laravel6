@@ -1,12 +1,16 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <h1>It works again</h1>
+@component('mail::message')
 
-    <p>It sounds like you want to hear more about {{ $topic }}</p>
-</body>
-</html>
+# A heading
+
+Lorem Ipsum is simply dummy text of the printing and
+
+- a list
+- goes
+- here
+
+
+@component('mail::button',['url'=>'https://laracast.com'])
+visit laracast
+@endcomponent
+
+@endcomponent
